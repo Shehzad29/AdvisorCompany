@@ -1,0 +1,28 @@
+/* body{
+    background-color: #0c0c0c;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 60px;
+} */
+.contact_form .form-control {
+    padding: 1.375rem .75rem;
+    line-height: 1.5;
+    color: #0c0c0c;
+    background-color: #fff;
+    border-radius: 0 !important;
+    border: 1px solid #0c0c0c;
+}
+
+.contact_form input.form-control {
+    margin-bottom: 2em;
+    height: calc(2.5em + .75rem + 2px);
+}
+
+.btn {
+    color: #0c0c0c;
+    border: 2px solid #1E1C1C;
+}
+
+.btn:hover {
+    color: #50ce4c;
+}

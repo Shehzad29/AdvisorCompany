@@ -1,0 +1,11 @@
+1> Download Zip File
+
+2> Then unzip the file, while doing unzipping some files won't unzip, just do skip for that
+
+3> open folder Demo_Capstone_Project_T16_COMP3078 in vs code
+
+4> then split terminal 
+for backend cd folder to backend and run npm install
+for frontend cd folder to frontend/orbit5front and run npm install
+
+5> then do npm start in both

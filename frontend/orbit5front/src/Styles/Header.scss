@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+.snip1143 {
+  font-family: "Raleway", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-weight: bold;
+  background-color: #00b0e1;
+  height: 70px;
+
+}
+.im {
+  float: left;
+}
+.snip1143 * {
+  box-sizing: content-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1143 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+  font-size: 18px;
+}
+.snip1143 a {
+  padding: 0.3em 0;
+  color: rgb(255, 255, 255);
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+}
+.snip1143 a:before,
+.snip1143 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1143 a:before {
+  top: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #c0392b;
+}
+.snip1143 a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-weight: bold;
+  content: attr(data-hover);
+  color: #000000;
+  white-space: nowrap;
+}
+.snip1143 li:hover a,
+.snip1143 .current a {
+  transform: translateY(-100%);
+}
+
+h2{
+  /* background-color : rgb(243, 243, 223); */
+  font-size: 40px;
+  font-weight: bold;
+  color:rgb(253, 143, 0);
+  text-align: center;
+  padding-top: 20px;
+}
+.icon {
+  color:#f38439;
+}
+
+.vatsal{
+  font-size: 16px;
+  text-align: right;
+  padding-right: 10px;
+}
